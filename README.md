@@ -1,4 +1,4 @@
-# Crossmint Megaverse – Quick Start
+# Crossmint Megaverse – Code Challenge
 
 Automation scripts to solve the Crossmint challenge with TypeScript. Uses `.env` for config and has retries + concurrency built‑in.
 
@@ -40,5 +40,8 @@ npm run phase2   # builds from the goal map (phase2/solorsystem.ts)
 
 * **Unknown file extension ".ts"** → Use `npm run phase1/phase2` or install `ts-node`.
 * **429 Too Many Requests** → Lower `CONCURRENCY` in `.env`.
+
+![Demo screenshot](screenshot.png)
+
 
 — Thomas
